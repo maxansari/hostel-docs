@@ -1,35 +1,35 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Team',
+    Svg: require('@site/static/img/team.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We are a team of developers who are passionate about creating a better hostel experience for students.
+        <br/><Link to="/team"><button className="button button--primary button--md">More Details</button></Link>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Project Mentor',
+    Svg: require('@site/static/img/mentor.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This Project is taking place under the Guidance of Dr. Kapil Gupta (asst. Professor) at NIT Kurukshetra, Computer Application Departement
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Project',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Here is the link to our project check out our project and enjoy
+        <br/><Link to="https://nitkkrhostels.live"><button className="button button--primary button--md">Goto Project</button></Link>
       </>
     ),
   },

@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+You have reached our **Docs** let's start exploring our project
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **Forking Our Repository**.
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
