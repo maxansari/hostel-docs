@@ -69,7 +69,7 @@ const config = {
         title: 'Hostel Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://upload.wikimedia.org/wikipedia/en/7/75/National_Institute_of_Technology%2C_Kurukshetra_Logo.png',
+          src: 'img/docusaurus.png',
         },
         items: [
           {
